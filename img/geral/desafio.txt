@@ -1,0 +1,44 @@
+Estrutura do Desafio
+
+BEM
+- blco
+- elemento
+- modificador
+
+html
+
+> header
+
+: div.header__logo
+- logo com link para home
+
+: div.header_primary
+- background: url balck no-repaet
+
+: nav.header__nav
+: ul.header__nav_list
+: li.header__nav_listElements
+: home + calago + contato
+
+
+< / header
+
+> main
+
+: section.section__second
+: div.section__second_img: url balck no-repaet
+: div.section__second_library
+	h2.section__second_title>titulo
+	p.section__second_text>texto
+
+: section.section__third
+: div.section__third_img: balck no-repaet
+: div.section__third_library
+	h2.section__third_title>titulo
+	p.section__third_text>texto
+
+
+
+
+
+ 

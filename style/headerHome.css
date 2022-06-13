@@ -1,0 +1,215 @@
+/*header do aranha da home*/
+.header_home{
+    background-image: url(../img/home/spidermanheader.jpg);
+    background-color: black;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    position: relative;
+    height: 100vh;
+}
+
+.header__container_logo{
+    padding: 15px;
+}
+
+.header__image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    height: 80%; 
+}
+
+.header__image img{
+    width: 60%;
+}
+
+/*header home - thor*/
+.second{
+    background-image: url(../img/home/thor_header.jpg);
+    background-color: red;
+    background-size:cover;
+    background-position: center;
+    height: 100vh; 
+}
+
+.second__title{
+    color: #fff;  
+} 
+
+.second__title::after{ 
+    background-color: #fff;   
+}
+
+.second__text{
+    display: flex;
+    justify-content: flex-end;   
+    align-items: center;
+    height: 80%;    
+}
+
+.second__text p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 0 20px;
+    text-align: justify;
+    width: 50%;
+}
+
+/*header do baneco da home*/
+
+.third{
+    display: flex;     
+    flex-direction: column;   
+}
+
+.third__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 100%;
+    margin-top: 10px;
+}
+
+.third__title::after{    
+    background-color: black;   
+}
+
+.third__banner{
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.third__banner_box{
+    display: flex;
+    align-self: center;    
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+.third__box_text{
+    text-align: justify;
+    font-size: 1.3rem;
+    margin-right: 10px;
+    padding: 0 20px; 
+}
+
+.third__box_button{
+    width: 100%;
+    display: flex;
+    align-items: center;    
+}
+
+.third__box_button a{
+    font-size: 1.5rem;
+}
+
+.third__box_button button{
+    width: 15rem;
+    height: 4.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0 0 15px;    
+}
+
+.third__box_button button:hover{
+    background-color: #e82210;
+}  
+
+.third__box_img{
+    width: 100%;
+} 
+
+.third__box_img img{
+    width: 700px;    
+}
+
+@media screen and (max-width: 768px) {
+
+    .global__nav_list_element{
+        margin:0px;         
+    }
+
+    .header_home{
+        background-image: url(../img/home/spidermanheader_mobile.jpg);
+    }
+
+    .header__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .header__image{
+        width: 100%;
+        height: 80%;
+        justify-content: flex-start; 
+    }
+
+    .header__image img{
+        width: 35%;
+        height: 35%;
+        margin-left: 20px;
+    }
+  
+    /*thor*/
+    
+    .second{
+        background: linear-gradient(red, orange);
+        height: 50%; 
+    }
+
+    .second__text{
+        height: 30rem;
+        display: block;       
+    }
+
+    .second__text p{  
+        text-align: center;
+        width: 100%;
+        height: 20rem;
+        margin-bottom: 20px;
+    }
+
+        /*third bonceco*/
+
+    .third__banner{
+        display: flex;     
+        flex-direction: column;  
+        align-items: center;
+        justify-content: center;        
+    }
+
+    .third__box_text{
+        margin-top: 30px;
+        text-align: center;     
+    }
+
+    .third__box_button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .third__box_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .third__box_img img{
+        width: 80%;  
+    }   
+
+    
+}
+
+
+
+
+
+
